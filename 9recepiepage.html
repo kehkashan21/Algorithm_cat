@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .recipe-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .ingredients,
+    .steps {
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .printable-version {
+      margin-top: 20px;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <title>Recipe Page</title>
+</head>
+<body>
+
+  <header>
+    <h1>Delicious Recipe</h1>
+  </header>
+
+  <section>
+    <img class="recipe-image" src="images\Avocado.jpg" alt="Recipe Image">
+
+    <h2>Ingredients</h2>
+    <ul class="ingredients">
+      <li>Avocado</li>
+      <li>Cherry tomatoes</li>
+      <li>Fresh basil leaves</li>
+      <!-- Add more ingredients as needed -->
+    </ul>
+
+    <h2>Steps</h2>
+    <ol class="steps">
+      <li>Prepare the Ingredients:
+
+        Dice the ripe avocado into bite-sized chunks.
+        Cut the cherry tomatoes in halves.
+        Chop fresh basil leaves.</li>
+      <li>Combine:
+
+        In a bowl, combine the diced avocado and halved cherry tomatoes.</li>
+      <li>Add Basil:
+
+        Toss in the chopped fresh basil leaves.</li>
+      <li>Mix Gently:
+
+          Gently mix the ingredients to ensure even distribution of flavors.</li>
+      <li>Serve:
+
+            Serve the salad immediately as a refreshing and healthy side dish.</li>
+      <!-- Add more steps as needed -->
+    </ol>
+
+    <div class="printable-version">
+      <button onclick="window.print()">Printable Version</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2023 Recipe Blog | All Rights Reserved
+  </footer>
+
+</body>
+</html>
